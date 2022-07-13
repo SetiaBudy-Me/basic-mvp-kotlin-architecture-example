@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Basic MVP Kotlin</string>
+    <string name="number_1">Number 1</string>
+    <string name="number_2">Number 2</string>
+    <string name="count">Count</string>
+    <string name="result">Result</string>
+    <string name="undefined">-</string>
+</resources>
