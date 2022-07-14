@@ -5,8 +5,14 @@
 # Basic MVP Kotlin Architecture Example
 Contoh aplikasi Android sederhana untuk menunjukkan cara kerja arsitektur MVP, menggunakan Kotlin.
 
-$~~$
+### Screenshots
 
+<div align:left;display:inline;>
+  <img width="20%" height="20%" src="https://github.com/SetiaBudy-Me/basic-mvp-kotlin-architecture-example/blob/master/res/Image%20Screenshot%2001.jpeg"/>
+  <img width="20%" height="20%" src="https://github.com/SetiaBudy-Me/basic-mvp-kotlin-architecture-example/blob/master/res/Image%20Screenshot%2002.jpeg"/>
+</div>
+
+$~~$
 ## MVC
 
 ***MVP (Model View Presenter)*** adalah turunan dari pola desain arsitektur MVC, dan berfokus pada peningkatan logika presentasi.
