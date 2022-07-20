@@ -10,6 +10,7 @@ Contoh aplikasi Android sederhana untuk menunjukkan cara kerja arsitektur MVP, m
 <div align:left;display:inline;>
   <img width="20%" height="20%" src="https://github.com/SetiaBudy-Me/basic-mvp-kotlin-architecture-example/blob/master/res/Image%20Screenshot%2001.jpeg"/>
   <img width="20%" height="20%" src="https://github.com/SetiaBudy-Me/basic-mvp-kotlin-architecture-example/blob/master/res/Image%20Screenshot%2002.jpeg"/>
+  <img width="20%" height="20%" src="https://github.com/SetiaBudy-Me/basic-mvp-kotlin-architecture-example/blob/master/res/Image%20Screenshot%2003.jpeg"/>
 </div>
 
 $~~$
