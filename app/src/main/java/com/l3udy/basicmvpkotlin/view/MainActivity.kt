@@ -1,4 +1,4 @@
-package com.l3udy.basicmvpkotlin
+package com.l3udy.basicmvpkotlin.view
 
 import android.os.Bundle
 import android.util.Log
@@ -7,9 +7,9 @@ import androidx.appcompat.app.AppCompatActivity
 import com.l3udy.basicmvpkotlin.databinding.ActivityMainBinding
 import com.l3udy.basicmvpkotlin.model.Data
 import com.l3udy.basicmvpkotlin.presenter.MainPresenter
-import com.l3udy.basicmvpkotlin.presenter.MainView
 
-class MainActivity : AppCompatActivity(), MainView {
+class MainActivity : AppCompatActivity(), MainPresenter.View {
+    private val tag = this::class.java.simpleName
 
     // View Binding
     private lateinit var binding: ActivityMainBinding
@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity(), MainView {
                 // Calling a function inside the presenter
                 presenter.count(number1, number2)
             } catch (e: Exception) {
-                Log.e("MainActivity", "Error Exception -> ${e.localizedMessage}")
+                Log.e(tag, "Error Exception -> ${e.localizedMessage}")
                 Toast.makeText(this, "Oops something wrong..!!", Toast.LENGTH_SHORT).show()
             }
         }

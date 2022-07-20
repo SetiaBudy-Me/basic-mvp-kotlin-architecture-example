@@ -5,4 +5,12 @@
     <string name="count">Count</string>
     <string name="result">Result</string>
     <string name="undefined">-</string>
+
+    <!--Login-->
+    <string name="login">Login</string>
+    <string name="login_enter_email_address">Enter email address</string>
+    <string name="login_enter_password">Enter password</string>
+    <string name="login_email_password_empty">Email or password can\'t be empty</string>
+
+    <!--Main-->
 </resources>
